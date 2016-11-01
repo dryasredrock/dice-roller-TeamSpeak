@@ -6,8 +6,17 @@ local function onTextMessageEvent(serverConnectionHandlerID, targetMode, toID, f
 --#################################################################
 --#          CONFIG                                               #
 --#################################################################
+
 -- constante de traduction
 	local jet="lance"
+	local lang = os.getenv("dicerollerlang")
+	if lang == "FR" then
+	jet="lance"
+	elseif lang== "EN" then
+	jet="roll"
+	else
+	jet="lance"
+	end
 --nombre de dés max
 	local max_dice = 25
 -- debug on 1 off 0
@@ -16,6 +25,7 @@ local function onTextMessageEvent(serverConnectionHandlerID, targetMode, toID, f
 --#################################################################
 --#        SCRIPT                                                 #
 --#################################################################
+	
 	
 --Ne pas modifier ce qui suit si vous ne savez pas ce que vous faites ;-)
 	tschan = ts3.getChannelOfClient(serverConnectionHandlerID, fromID)

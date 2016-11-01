@@ -56,3 +56,19 @@ réussite en vert et fumble en rouge
 (25d10)r5k2 modifie le seuil de réussite a 5 et garde les 2 meilleures résultats. (toujours mettre l'option r avant k)
 
 Tout résultat faisant un 1 est considéré comme fumble et est affiché en rouge.
+
+*************************************************
+Notice
+*************************************************
+
+limit number of rolling dices : 25
+
+(25d10) roll 25 dices with 10 faces et show the rolling result of each dices, the sum, the number of max faces (success threshold) in green and the number of 1 (fumble) in red
+
+(25d10)r5 set the success threshold at 5
+
+(25d10)k2 only keep the 2 best results
+
+(25d10)r5k2 a mix of the 2 previous functions
+
+every 1 is considered as a fumble and shown in red
