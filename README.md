@@ -22,6 +22,9 @@ Enjoy !!!
 *************************************************
 Release notes
 *************************************************
+version 1.6
+changement de langue en publiant une variable d'environnement : dicerollerlang
+valeur supportée : EN FR
 
 version 1.5
 ajout des modificateurs
@@ -42,6 +45,7 @@ Si vous améliorez ou modifiez ce script, merci de nous en informez afin de pér
 *************************************************
 Mode d'emploi
 *************************************************
+Pour changer la langue du dice roller en français, publiez une variable d'environnnement nommée dicerollerlang et ayant pour valeur FR
 
 le script limite le nombre de dés utilisés par dés a 25.
 
@@ -60,6 +64,7 @@ Tout résultat faisant un 1 est considéré comme fumble et est affiché en roug
 *************************************************
 Notice
 *************************************************
+to change the language of the dice roller ton english, publish an environnement var named dicerollerlang egal to EN
 
 limit number of rolling dices : 25
 
